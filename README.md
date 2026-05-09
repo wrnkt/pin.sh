@@ -19,7 +19,7 @@ pin -c                      # clear pinned
 
 # You can also use digits 1-9 to pin additional files. e.g.
 
-pin -p3 ~/documents/bar     # pin to slot 3
+pin -p3 ~/documents/bar      # pin to slot 3
 pin -3                       # view pin
 pin -c3                      # clear slot
 
