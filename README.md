@@ -12,12 +12,13 @@ source ~/.bashrc
 ```
 
 ### Usage
+
 ```sh
 pin -p ~/documents/foo      # pin a file
 pin                         # view pinned file w/ pager (defaults to cat or less)
 pin -c                      # clear pinned
 
-# You can also use digits 1-9 to pin additional files. e.g.
+# You can also use digits 1-9 to pin additional files.
 
 pin -p3 ~/documents/bar     # pin to slot 3
 pin -3                      # view pin
