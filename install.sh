@@ -4,7 +4,7 @@
 
 set -euo pipefail
 
-PIN_RAW_URL="https://raw.githubusercontent.com/wrnkt/pin.sh/refs/heads/main/install.sh"
+PIN_RAW_URL="https://raw.githubusercontent.com/wrnkt/pin.sh/refs/heads/main/pin.sh"
 INSTALL_DIR="${HOME}/.local/share/pin"
 INSTALL_FILE="${INSTALL_DIR}/pin.sh"
 SOURCE_LINE="source \"${INSTALL_FILE}\"  # pin utility"
